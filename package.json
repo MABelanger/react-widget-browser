@@ -25,6 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "serve:dist": "cd dist && ../node_modules/serve/bin/serve.js",
+    "serve": "npm run serve:dist",
     "build:browser": "rm -rf ./dist && NODE_ENV=production webpack --config ./config/webpack.config.browser.js && cp ./public/index.browser.html ./dist/index.html",
     "build": "npm run build:browser",
     "test": "react-scripts test",

@@ -3,6 +3,7 @@ var webpack = require('webpack');
 
 var createWebpackConfig = function(options) {
   return {
+    mode: 'production',
     entry: './src/lib/index.js',
     output: {
         filename:'react-widget-browser.min.js',
@@ -42,7 +43,7 @@ var createWebpackConfig = function(options) {
       ]
     },
     // this is for the sourcemaps
-    devtool:'inline-source-map'
+    devtool:'source-map' // you can also choose inline-source-map
   }
 };
 

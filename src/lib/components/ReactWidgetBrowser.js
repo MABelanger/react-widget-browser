@@ -8,7 +8,9 @@ export class ReactWidgetBrowser extends React.Component {
     }
     render() {
       return (
-        <div className={styles['test']}>Hello ReactWidgetBrowser</div>
+        <div className={styles['test']}>
+          {this.props.textProps}
+        </div>
       );
     }
 }

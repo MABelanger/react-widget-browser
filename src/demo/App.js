@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ReactWidgetBrowser />
+        <ReactWidgetBrowser
+          textProps={'hello my ReactWidgetBrowser dev'}
+        />
       </div>
     );
   }

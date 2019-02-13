@@ -9,7 +9,8 @@ The goal of this repo is to be able to build a react widget css module compatibl
 <script>
   ReactWidgetBrowserBundle.ReactDOM.render(
     ReactWidgetBrowserBundle.React.createElement(
-      ReactWidgetBrowserBundle.ReactWidgetBrowser
+      ReactWidgetBrowserBundle.ReactWidgetBrowser,
+      {colorProp: 'blue', textProps: 'hello world'},
     ),
     document.getElementById('root')
   );

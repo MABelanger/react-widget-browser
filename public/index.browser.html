@@ -11,7 +11,8 @@
     <script>
       ReactWidgetBrowserBundle.ReactDOM.render(
         ReactWidgetBrowserBundle.React.createElement(
-          ReactWidgetBrowserBundle.ReactWidgetBrowser
+          ReactWidgetBrowserBundle.ReactWidgetBrowser,
+          {textProps: 'hello my ReactWidgetBrowser build'},
         ),
         document.getElementById('root')
       );

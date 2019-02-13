@@ -17,6 +17,14 @@ The goal of this repo is to be able to build a react widget css module compatibl
 </script>
 ```
 
+### dependency
+packages | Version
+--- | ---
+webpack | 4.x
+@babel/cli | 7.x
+babel-loader | 8.x
+css-loader | 1.0.0 (do not work with 2.x)
+
 ### Commands
 command | Description
 --- | ---

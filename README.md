@@ -28,7 +28,7 @@ command | Description
 ### PropTypes
 Properties | Type | Description
 --- | --- | ---
-**textProps:** | String | the text of the div
+**textProps** | String | the text of the div
 
 ### Example of usage
 ```js

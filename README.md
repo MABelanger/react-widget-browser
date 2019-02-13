@@ -10,7 +10,7 @@ The goal of this repo is to be able to build a react widget css module compatibl
   ReactWidgetBrowserBundle.ReactDOM.render(
     ReactWidgetBrowserBundle.React.createElement(
       ReactWidgetBrowserBundle.ReactWidgetBrowser,
-      {textProps: 'hello my ReactWidgetBrowser build'},
+      {textProps: 'hello my ReactWidgetBrowser from my script browser'},
     ),
     document.getElementById('root')
   );
@@ -33,6 +33,6 @@ Properties | Type | Description
 ### Example of usage
 ```js
 <ReactWidgetBrowser
-    textProps={'hello my ReactWidgetBrowser'}
+    textProps={'hello my ReactWidgetBrowser from dev'}
 />
 ```

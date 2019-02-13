@@ -30,8 +30,9 @@ Properties | Type | Description
 --- | --- | ---
 **textProps:** | String | the text of the div
 
+### Example of usage
 ```js
 <ReactWidgetBrowser
-    loading={this.props.isLoading}
+    textProps={'hello my ReactWidgetBrowser'}
 />
 ```

@@ -1,5 +1,5 @@
 # react-widget-browser
-The goal of this repo is to be able to build a react widget css module compatible in production that can be used directly with browser. So you can use your component inside <script> tag like this:
+The goal of this repo is to be able to build a react widget css module compatible in production that can be used directly with browser with create-react-app. So you can use your component inside <script> tag like this:
 
 ```js
 <div id="root"></div>
@@ -33,6 +33,6 @@ Properties | Type | Description
 ### Example of usage
 ```js
 <ReactWidgetBrowser
-    textProps={'hello my ReactWidgetBrowser from dev'}
+    textProps={'hello my ReactWidgetBrowser from my create react app'}
 />
 ```

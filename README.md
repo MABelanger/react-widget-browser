@@ -28,7 +28,7 @@ command | Description
 ### PropTypes
 Properties | Type | Description
 --- | --- | ---
-**isLoading:** (optional) | Boolean | TODO.
+**textProps:** | String | the text of the div
 
 ```js
 <ReactWidgetBrowser
